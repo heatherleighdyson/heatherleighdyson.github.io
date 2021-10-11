@@ -39,6 +39,11 @@ h2 {
     font-size: 48px;
 }
 
+h3 {
+    font-size: 48px;
+    color: hsl(207, 100%, 40%);
+}
+
 p {
     color: #033362;
     line-height: 1.5;
@@ -135,14 +140,17 @@ main h2 {
     row-gap: 5vh;
 }
 
-#icons div {
-    display: grid;
-    grid-template-columns: 40% 60%;
+.card {
     border: 1px solid #2EABFF;
-    padding: 20px 40px;
+    padding: 20px 40px 60px 40px;
     border-radius: 8px;
     box-shadow: 0 4px 6px hsl(0, 0%, 95%);
 }    
+
+.card h3 {
+    text-align: left;
+    margin-block: 0 16px;
+}
 
 #icons div p {
     /* width: 50ch; */
@@ -155,4 +163,10 @@ main h2 {
     height: auto;
     align-self: center;
     justify-self: center;
+}
+
+.card-content {
+    display: grid;
+    grid-template-columns: 40% 60%;
+
 }
