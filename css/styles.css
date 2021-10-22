@@ -170,3 +170,24 @@ main h2 {
     grid-template-columns: 40% 60%;
 
 }
+
+ul {
+    list-style: none;
+    margin-inline: auto;
+    width: fit-content; 
+}
+
+ul li::before {
+    content: "✅";
+    font-size: 32px;
+    margin-inline-end: 12px; 
+}
+
+li {
+    margin-block: 12px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    font-size: 28px;
+    color: #033362;
+}
