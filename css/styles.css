@@ -58,7 +58,7 @@ p {
     padding-top: 10vh;
     display: grid;
     grid-template-areas: "div img";
-    grid-template-columns: 65% 35x  %;
+    grid-template-columns: 65% 35%;
     column-gap: 10vw;
 }
 
@@ -173,7 +173,11 @@ main h2 {
 
 ul {
     list-style: none;
+    margin-block: 5vh;
     margin-inline: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4rem;
     width: fit-content; 
 }
 
@@ -188,6 +192,6 @@ li {
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
-    font-size: 28px;
+    font-size: 24px;
     color: #033362;
 }
